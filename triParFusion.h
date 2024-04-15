@@ -20,6 +20,7 @@ void fusionner(Elem* array, Elem* temp, int left, int mid, int right) {
     }
 }
 
+
 void mergesort(Elem* array, Elem* temp, int left, int right) {
     if (left >= right) return;
     int mid = (left + right) / 2;
@@ -28,6 +29,8 @@ void mergesort(Elem* array, Elem* temp, int left, int right) {
     fusionner(array, temp, left, mid, right);
 }
 
+
+/*
 int main() {
     Elem array[] = {10, 6, 8, 5, 7, 3, 4, 9, 1, 2};
     int size = sizeof(array) / sizeof(array[0]);
@@ -50,3 +53,4 @@ int main() {
     delete[] temp; 
     return 0;
 }
+*/

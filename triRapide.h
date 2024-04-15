@@ -22,6 +22,7 @@ void triRapide(std::vector<int>& vecteur, int debut, int fin) {
     }
 }
 
+/*
 int main() {
     std::vector<int> vecteur = {10, 6, 8, 5, 7, 3, 4, 9, 1, 2};
     
@@ -37,3 +38,4 @@ int main() {
 
     return 0;
 }
+*/

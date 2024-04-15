@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+
 void triInsertion(std::vector<int> &vecteur) {
   int actuel;
   int taille = vecteur.size();
@@ -15,6 +16,7 @@ void triInsertion(std::vector<int> &vecteur) {
   }
 }
 
+/*
 int main() {
   std::vector<int> vecteur = {5, 3, 8, 6, 2, 7, 4, 1};
   triInsertion(vecteur);
@@ -28,3 +30,4 @@ int main() {
 
   return 0;
 }
+*/
